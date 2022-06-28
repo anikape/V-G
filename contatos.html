@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V&G Turismo - Contato</title>
+    <link rel="shortcut icon" href="/veg.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./stylecontato.css">
+    <link rel="stylesheet" type="text/css" href="./main-footer.css">
+
+</head>
+
+<header id="header">
+
+
+    <figure>
+        <img src="./v&g.jpg" id="logo">
+    </figure>
+
+    <nav id="nav-h">
+        <ul id="list">
+            <li id="home"><a href="./index.html">Home</a>
+            </li>
+            <li id="agenda"><a href="#">Agenda</a></li>
+            <li id="pagamento"><a href="./regras.html">Regras</a></li>
+            <li id="somos"><a href="#">Quem Somos</a></li>
+            <li id="contato"><a href="pagina do contato\contatos.html">Contato</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+
+<body class="corpo">
+    <h1 class="inicio">Caso deseje entrar em contato conosco, deixe sua mensagem abaixo:</h1>
+
+    <form class="fomulario">
+        <label for="assunto">Assunto: </label>
+        <select name="assunto" id="assunto">
+            <option value="">Select</option>
+        <option value="reclamacao">Reclamação</option>
+        <option value="sugestao">Sugestão</option>
+        <option value="informacao">Informação</option>
+        <option value="elogio">Elogio</option>
+    </select>
+        <div class="div1">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder=" Escreva seu nome">
+        </div>
+
+        <div class="div2">
+            <label for="Telefone">Telefone:</label>
+            <input type="number" name="telefone" placeholder=" 99-9999.9999">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="Nome" placeholder=" exemplo@exemplo.com.br">
+        </div>
+
+        <div class="textarea">
+            <label for="mensagem">Mensagem*</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+
+        <div class="botao">
+            <input type="submit" value="Enviar Mensagem">
+        </div>
+
+    </form>
+
+    <button class="botao">
+        <a  href="#inicio" role="button">Voltar para o topo</a>
+     </button>
+
+</body>
+
+</html>

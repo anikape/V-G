@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #eaf2e6, #b1c3a9, #7a966f, #456b39, #0a4204);
+    font-family: gentium;
+    font-size: 10px;
+}
+
+.regras {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#inicio {
+    display: flex;
+    color: #DE3126;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #08bd08f5 62%, #99ffcc 100%);
+}
+
+#logo {
+    margin-left: 0%;
+    display: inline-flexbox;
+    border-radius: 10px;
+    width: 110px;
+}
+
+#nav-h {
+    margin: auto;
+    display: inline;
+    list-style: none;
+}
+
+#nav-h ul li {
+    display: inline;
+}
+
+#nav-h ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#nav-h ul li a:hover {
+    background-color: #0c1beb75;
+    color: black;
+    font-weight: bold;
+    transition: background .5s;
+}
+
+#regraPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 2.8rem;
+}
+
+#fig1 {
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.botao a {
+    border-color: #46a7f5;
+    background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+    box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+    color: #fff;
+    text-shadow: 0px 1px 0px #528009;
+}
+
+.botao a:hover {
+    background: linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+}
