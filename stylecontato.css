@@ -4,12 +4,18 @@
 }
 
 form {
+    display: inline-block;
+    justify-content: center;
     align-items: center;
+    font-size: 20px;
     width: 600px;
     padding: 10px;
 }
 
 fomr>div {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: justify;
@@ -21,16 +27,15 @@ fomr>div {
 }
 
 .inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-family: gentium;
+    color: #FFF;
     margin-bottom: 30px;
     font-size: 25px;
-    font-weight: 400;
-}
-
-.formulario {
-    padding: 50px;
-    line-height: 10px;
-    width: 500px;
+    font-weight: 700;
 }
 
 .botao {
