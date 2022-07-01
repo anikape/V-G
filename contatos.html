@@ -23,7 +23,7 @@
         <ul id="list">
             <li id="home"><a href="./index.html">Home</a>
             </li>
-            <li id="agenda"><a href="#">Agenda</a></li>
+            <li id="agenda"><a href="agenda.html">Agenda</a></li>
             <li id="pagamento"><a href="./regras.html">Regras</a></li>
             <li id="somos"><a href="#">Quem Somos</a></li>
             <li id="contato"><a href="pagina do contato\contatos.html">Contato</a></li>
@@ -38,10 +38,10 @@
 <body class="corpo">
     <h1 class="inicio">Caso deseje entrar em contato conosco, deixe sua mensagem abaixo:</h1>
 
-    <form>
+    <form class="container">
         <label for="assunto">Assunto: </label>
         <select name="assunto" id="assunto">
-            <option value="">Select</option>
+            <option value="">Selecione uma opção</option>
         <option value="reclamacao">Reclamação</option>
         <option value="sugestao">Sugestão</option>
         <option value="informacao">Informação</option>
@@ -49,17 +49,17 @@
     </select>
         <div class="div1">
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" placeholder=" Escreva seu nome">
+            <input id="nome" type="text" name="nome" placeholder=" Escreva seu nome">
         </div>
 
         <div class="div2">
             <label for="Telefone">Telefone:</label>
-            <input type="number" name="telefone" placeholder=" 99-9999.9999">
+            <input id="fone" type="number" name="telefone" placeholder=" 99-9999.9999">
         </div>
 
         <div>
             <label for="email">E-mail:</label>
-            <input type="email" name="Nome" placeholder=" exemplo@exemplo.com.br">
+            <input id="email" type="email" name="Nome" placeholder=" exemplo@exemplo.com.br">
         </div>
 
         <div class="textarea">
@@ -67,7 +67,7 @@
             <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea>
         </div>
 
-        <div class="botao">
+        <div class="mensagem">
             <input type="submit" value="Enviar Mensagem">
         </div>
 
