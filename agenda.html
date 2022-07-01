@@ -33,10 +33,10 @@
 <body>
     <main class="corpo">
         <label for="agenda">Agenda: </label>
-        <select name="agenda" id="agenda">
-            <option value="">Selecione uma opção</option>
-        <option href="#h1" value="julho">Julho/2022</option>
-        <option href="#h3"value="janeiro23">Janeiro/2023</option>
+        <select name="agenda" id="agenda" onchange="location.href=this.value">
+            <option value="" selected>Selecione uma opção</option>
+        <option  value="#h1">Julho/2022</option>
+        <option value="#h3">Janeiro/2023</option>
             </select>
 
         <section>
@@ -70,14 +70,6 @@
 
     </main>
     </section>
-
-
-
-
-
-
-
-
 
 
     <button class="botao">

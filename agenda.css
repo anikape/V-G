@@ -97,17 +97,26 @@
     margin: 20px;
 }
 
-.zoom img {
-    max-width: 100%;
-    -moz-transition: all 0.1s;
-    -webkit-transition: all 0.1s;
-    transition: all 0.3s;
+img {
+    -webkit-animation: fade 2s 0s 1, bright 1s 2s infinite alternate;
 }
 
-.zoom:hover img {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bright {
+    from {
+        -webkit-filter: brightness(0.8);
+    }
+    to {
+        -webkit-filter: brightness(1);
+    }
 }
 
 .botao a {
