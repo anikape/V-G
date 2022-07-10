@@ -8,7 +8,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right bottom, #eaf2e7, #b1c3e8, #7a967f, #456c39, #0a4359);
 }
 
 p {
