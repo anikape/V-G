@@ -21,6 +21,10 @@ div {
     justify-content: center;
 }
 
+.fotos {
+    -webkit-animation: fade 2s 0s 1, bright 1s 2s infinite alternate;
+}
+
 .corpo {
     justify-content: center;
     background-image: linear-gradient(to right bottom, #eaf2e6, #b1c3a9, #7a966f, #456b39, #0a4204);
@@ -63,6 +67,17 @@ div {
     font-weight: 700;
     font-size: 3.5rem;
 }
+
+.fotos {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/*#fig {
+    -webkit-animation: fade 2s 0s 1, bright 1s 2s infinite alternate;
+}*/
 
 #datas {
     display: flex;
@@ -133,12 +148,9 @@ div {
     justify-content: center;
     align-content: center;
     width: 400px;
+    height: 300px;
     border-radius: 10%;
     margin: 20px;
-}
-
-img {
-    -webkit-animation: fade 2s 0s 1, bright 1s 2s infinite alternate;
 }
 
 .figimage :hover {
@@ -154,11 +166,14 @@ img {
     display: none;
 }
 
-img {
+
+/*img {
     width: 300px;
     height: 300px;
-    -webkit-animation: fade 2s 0s 1, bright 1s 2s infinite alternate;
-}
+     -webkit-animation: fade 2s 0s 1, bright 1s 2s infinite alternate;
+
+
+}*/
 
 #btnLeiaMais {
     background: #0066A2;
@@ -222,14 +237,24 @@ button:hover {
     }
 }
 
+.botao {
+    background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+    border-radius: 15%;
+}
+
 .botao a {
     border-color: #46a7f5;
     background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
     box-shadow: inset 0px 1px 0px 0px #d7ecfd;
     color: #fff;
     text-shadow: 0px 1px 0px #528009;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .botao a:hover {
     background: linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
 }
+
+
+/* Responsividade*/
